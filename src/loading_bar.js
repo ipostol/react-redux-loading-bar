@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 
 export const UPDATE_TIME = 200
@@ -113,16 +113,6 @@ export class LoadingBar extends React.Component {
       </div>
     )
   }
-}
-
-LoadingBar.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  style: PropTypes.object,
-  className: PropTypes.string,
-  loading: PropTypes.number,
-  updateTime: PropTypes.number,
-  maxProgress: PropTypes.number,
-  progressIncrease: PropTypes.number,
 }
 
 LoadingBar.defaultProps = {
