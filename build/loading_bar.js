@@ -159,16 +159,6 @@ var LoadingBar = exports.LoadingBar = function (_React$Component) {
   return LoadingBar;
 }(_react2.default.Component);
 
-LoadingBar.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  style: _react.PropTypes.object,
-  className: _react.PropTypes.string,
-  loading: _react.PropTypes.number,
-  updateTime: _react.PropTypes.number,
-  maxProgress: _react.PropTypes.number,
-  progressIncrease: _react.PropTypes.number
-};
-
 LoadingBar.defaultProps = {
   style: {},
   className: undefined,
